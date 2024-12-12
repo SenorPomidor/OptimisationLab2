@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example.serialization.protobuf";
+option java_outer_classname = "UserProto";
+
+message User {
+  string name = 2;
+  int32 age = 20;
+  string email = 3;
+}
